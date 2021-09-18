@@ -1,8 +1,4 @@
 @media all and (max-width: 1125px) {
-    .destinations {
-        flex-wrap: wrap;
-    }
-
     .destination {
         width: 33%;
         margin-top: 0;
@@ -14,14 +10,7 @@
 
 
 @media all and (max-width: 670px) {
-    .destinations {
-        flex-direction: column;
-    }
-
     .destination {
-        margin-top: 0;
-        margin-bottom: 50px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
     }
 }
